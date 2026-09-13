@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/reverb",
+  "title": "Reverb",
+  "description": "Reverb MCP — the musical-instrument marketplace",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/reverb",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-reverb",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/reverb/mcp"
+    }
+  ]
+}
