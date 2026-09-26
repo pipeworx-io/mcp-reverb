@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-reverb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Reverb MCP — the musical-instrument marketplace",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-2c60b91cec51bc482262e54ebee335cda7a2d6b09d795020eb4a288f66a7c484",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-115af870d8e9540a038e52a9c829f69b7c7d5304b84d1a0bd4b087d63dd1acdf",
+    "sourceCommit": "6fe8fb3e01138dfc4ebe7d5c246503aab9278d06"
   }
 }
