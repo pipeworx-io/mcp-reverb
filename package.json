@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-reverb",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Reverb MCP — the musical-instrument marketplace",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-reverb": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "reverb"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-reverb.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/reverb",
   "pipeworx": {
-    "sourceHash": "v1-115af870d8e9540a038e52a9c829f69b7c7d5304b84d1a0bd4b087d63dd1acdf",
-    "sourceCommit": "6fe8fb3e01138dfc4ebe7d5c246503aab9278d06"
+    "mode": "gateway",
+    "slug": "reverb",
+    "gatewaySlug": "reverb",
+    "sourceHash": "v1-a154bedb677b4884ec3582a4f8262903cd00b8e3faded0fd6f46b5d11b3e227f",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
