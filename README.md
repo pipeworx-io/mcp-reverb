@@ -4,7 +4,7 @@ Live listings from Reverb.com, the musical-instrument marketplace — guitars,
 amps, pedals, synths, drums and pro audio, with make/model/year/finish/condition
 and the seller's **asking price**.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1856+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -47,9 +47,9 @@ instrument prices, Reverb is not the source.
   `query, make, model, product_type, category, condition, price_min, price_max,
   currency, year_min, year_max, item_region, ships_to, handmade, sort, order,
   page, per_page`.
-- <https://api.reverb.com/api/listings/{id}> — listing detail.
-- <https://api.reverb.com/api/shops/{slug}> — seller profile.
-- <https://api.reverb.com/api/categories/flat> — the full category tree (roots plus sub-categories, 320 entries). Plain `/api/categories` returns only the 14 roots.
+- Reverb — listing detail.
+- Reverb — seller profile.
+- Reverb — the full category tree (roots plus sub-categories, 320 entries). Plain `/api/categories` returns only the 14 roots.
 
 Docs live at <https://www.reverb-api.com> (`dev.reverb.com` redirects there).
 
@@ -111,7 +111,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1856+ data sources. The
+Both URLs reach the same gateway and the same 1866+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

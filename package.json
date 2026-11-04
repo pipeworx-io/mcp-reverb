@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-reverb",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Reverb MCP — the musical-instrument marketplace",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "reverb",
     "gatewaySlug": "reverb",
-    "sourceHash": "v1-a154bedb677b4884ec3582a4f8262903cd00b8e3faded0fd6f46b5d11b3e227f",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-6a928406ab0f49e6c18d6918f836ef16d1d66e23a697e98726d0a15cccc857d8",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }
